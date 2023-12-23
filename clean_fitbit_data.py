@@ -50,7 +50,6 @@ for file_name in os.listdir(folder_path):
                     'sleep_log_entry_id': log_id,
                     'timestamp': end_time,
                     'overall_score': None,
-                    'composition_score': None,
                     'revitalization_score': None,
                     'duration_sleep_hours': duration_sleep_hours,
                     'deep_sleep_in_minutes': None,
