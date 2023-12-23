@@ -1,0 +1,10 @@
+{
+  "fitnessActivity": "sleep",
+  "startTime": "2022-05-11T20:38:30Z",
+  "endTime": "2022-05-12T05:30:30Z",
+  "duration": "31920s",
+  "aggregate": [{
+    "metricName": "com.google.step_count.delta",
+    "intValue": 67
+  }]
+}
