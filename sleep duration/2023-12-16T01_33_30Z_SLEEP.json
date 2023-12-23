@@ -1,0 +1,19 @@
+{
+  "fitnessActivity": "sleep",
+  "startTime": "2023-12-16T01:33:30Z",
+  "endTime": "2023-12-16T06:21:30Z",
+  "duration": "17280s",
+  "aggregate": [{
+    "metricName": "com.google.calories.expended",
+    "floatValue": 400.9296421706985
+  }, {
+    "metricName": "com.google.step_count.delta",
+    "intValue": 30
+  }, {
+    "metricName": "com.google.distance.delta",
+    "floatValue": 19.399999380111694
+  }, {
+    "metricName": "com.google.speed.summary",
+    "floatValue": 0.0918829732890339
+  }]
+}

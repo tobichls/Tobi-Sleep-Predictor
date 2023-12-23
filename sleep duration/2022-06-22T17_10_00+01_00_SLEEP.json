@@ -1,0 +1,16 @@
+{
+  "fitnessActivity": "sleep",
+  "startTime": "2022-06-22T16:10:00Z",
+  "endTime": "2022-06-23T00:55:00Z",
+  "duration": "31500s",
+  "aggregate": [{
+    "metricName": "com.google.step_count.delta",
+    "intValue": 21
+  }, {
+    "metricName": "com.google.distance.delta",
+    "floatValue": 15.800000190734863
+  }, {
+    "metricName": "com.google.speed.summary",
+    "floatValue": 0.1338983029127121
+  }]
+}
