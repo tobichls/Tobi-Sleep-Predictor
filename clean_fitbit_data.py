@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 import os
+import datetime
 
 # Define the path to the folder containing the extra Fitbit sleep data files
 folder_path = r'C:\Users\tobic\OneDrive\Desktop\Sleep Predictor Data\sleep duration fitbit'
@@ -12,6 +13,13 @@ sleep_data = pd.read_csv(sleep_data_path)
 # Function to convert minutes to hours
 def minutes_to_hours(minutes):
     return round(minutes / 60, 3)
+
+def fix_end_time_format(end_time):
+    # Remove the milliseconds
+    end_time = end_time.split('.')[0]
+    # Add the 'Z' at the end
+    end_time = end_time + 'Z'
+    return end_time
 
 # Process each file in the folder
 for file_name in os.listdir(folder_path):
@@ -27,13 +35,13 @@ for file_name in os.listdir(folder_path):
         # Iterate through each sleep session in the extra data
         for session in sleep_data_extra:
             log_id = session['logId']
-            end_time = session['endTime'][:-5]  # Removing milliseconds and timezone for comparison
+            end_time = fix_end_time_format(session['endTime'])
             minutes_asleep = session['minutesAsleep']
             duration_sleep_hours = minutes_to_hours(minutes_asleep)
             
             # Prepare the match condition
             match_condition = (sleep_data['sleep_log_entry_id'] == log_id) & \
-                              (sleep_data['timestamp'].str.startswith(end_time))
+                              (sleep_data['timestamp'].str.startswith(end_time[:-1]))
             
             # Check if a match is found and update or add new row accordingly
             if sleep_data[match_condition].empty:
