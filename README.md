@@ -1,4 +1,4 @@
-# README for Tobi's Sleep Predictor Project - Data Science Industrial Placement
+# README for Tobi's Sleep Predictor Project
 
 ## Introduction
 Welcome to the Sleep Predictor Project! This repository is a showcase of a comprehensive data science endeavor aimed at predicting sleep quality using rich datasets from Fitbit and Google Fit. The project leverages advanced data cleaning, exploratory data analysis, statistical testing, and machine learning techniques. It's a testament to my skills in handling, analyzing, and drawing insights from complex, real-world data.
