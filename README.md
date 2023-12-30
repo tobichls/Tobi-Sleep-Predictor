@@ -93,8 +93,5 @@ The culmination of this project is the `Tobi-Sleep-Predictor-Data2` dataset, a m
 - **Data Visualization**: Used visual tools to effectively communicate findings.
 - **Problem-Solving**: Addressed and resolved complex data challenges.
 
-## Installation and Execution
-Please ensure Python and its relevant libraries (Pandas, Numpy, Scipy, etc.) are installed. Execute the scripts and notebooks in the provided order for optimal results.
-
 ## Contact Information
 For more information or to discuss this project further, please feel free to connect with me on [LinkedIn](<http://www.linkedin.com/in/tobi-fakoya>).
