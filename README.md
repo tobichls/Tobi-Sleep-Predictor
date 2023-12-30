@@ -6,6 +6,20 @@ Welcome to the Sleep Predictor Project! This repository is a showcase of a compr
 ## Objective
 The primary goal of this project is to develop a robust sleep prediction model. By integrating data from wearable technology and external factors, the model aims to understand the determinants of good sleep and predict sleep quality accurately. This work has implications for personal health monitoring and wellness technology development.
 
+## Project Highlights
+
+- **Comprehensive Data Integration**: Merged and analyzed data from Fitbit and Google Fit, demonstrating advanced skills in handling and integrating data from multiple sources.
+- **Advanced Data Cleaning Techniques**: Employed sophisticated data cleaning methods including heatmaps for missing data visualization and Multiple Imputation by Chained Equations (MICE).
+- **Statistical Analysis and Testing**: Conducted Chi-Square tests, Cramer's V and other statistical analyses.
+- **Predictive Modeling**: Developed a sleep quality prediction model using machine learning techniques.
+- **Incorporation of External Factors**: Integrated external data sources like weather information to analyse the impact of environmental factors on personal health data.
+- **Problem-Solving Approach**: Developed problem-solving abilities in data preprocessing and analysis, a critical skill in data science.
+- **Technical Proficiency**: Improved expertise in Python and its key libraries such as Pandas, Numpy, and Scipy.
+- **Attention to Data Integrity**: Created unique identifiers for data logs, ensuring data traceability and reliability, a practice that reflects a high standard of data governance.
+- **Real-World Application and Relevance**: The project aligns with current health and wellness trends, emphasizing its practicality and relevance in the current data-driven landscape.
+- **Effective Documentation**: Maintained clear and detailed documentation of the project workflow and findings, demonstrating the ability to communicate complex information effectively.
+
+
 ## Project Structure and File Descriptions
 
 ### Python Scripts
