@@ -1,7 +1,7 @@
 # README for Tobi's Sleep Predictor Project
 
 ## Introduction
-Welcome to the Sleep Predictor Project! This repository showcases my comprehensive data science endeavor aimed at predicting sleep quality using rich datasets from Fitbit and Google Fit. The project leverages advanced data cleaning, exploratory data analysis, statistical testing, and machine learning techniques, demonstrating my ability to handle, analyze, and draw insights from complex, real-world data.
+Welcome to the Sleep Predictor Project! This repository showcases my comprehensive data science endeavor aimed at predicting sleep quality using rich datasets from my personal Fitbit and Google Fit data. The project leverages advanced data cleaning, exploratory data analysis, statistical testing, and machine learning techniques, demonstrating my ability to handle, analyze, and draw insights from complex, real-world data.
 
 ## Objective
 The primary goal of this project is to develop a robust sleep prediction model. By integrating data from wearable technology and external factors, I aim to understand the determinants of good sleep and predict sleep quality accurately. This work is important as it allows me to monitor my personal health and wellness through technology development.
